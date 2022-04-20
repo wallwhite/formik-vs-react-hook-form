@@ -1,0 +1,12 @@
+.formRow {
+    display: grid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "input button"      
+}
+
+.buttonRemove {
+    justify-self: end;
+}

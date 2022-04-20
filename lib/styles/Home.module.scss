@@ -8,24 +8,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -51,9 +35,9 @@
 }
 
 .description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin: 50px 0 120px;
+  line-height: 1;
+  font-size: 20px;
 }
 
 .code {
@@ -68,9 +52,10 @@
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   max-width: 800px;
+  width: 100%;
 }
 
 .card {
@@ -106,6 +91,11 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.advantages {
+  width: 100%;
+  max-width: 800px;
 }
 
 @media (max-width: 600px) {
